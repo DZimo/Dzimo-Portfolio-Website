@@ -1,0 +1,173 @@
+body, html {
+    width: 100%;
+	height: 100%;
+}
+
+body, p {
+	color: #f1f1f8; 
+	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+}
+
+@keyframes example {
+	from {background-color: #202020;}
+	to {background-color: #4eae36;}
+  }
+
+
+.navbar-custom {
+	background-color: #4eae36;
+	font: 700 0.75rem/2rem "Montserrat", sans-serif;
+	transition: all 0.2s ease;
+}
+.navbar-custom .navbar-nav {
+	margin-top: 0.75rem;
+}
+
+.navbar-custom .nav-item .nav-link {
+	padding: 0 0.75rem 0 0.75rem;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.navbar-custom .social-icons {
+	display: block;
+	margin-left: 0.5rem;
+}
+
+.navbar-brand.logo-image img{
+	width: 50%;
+}
+
+.navbar-custom .dropdown:hover > .dropdown-menu {
+	display: block; /* this makes the dropdown menu stay open while hovering it */
+	min-width: auto;
+	animation: fadeDropdown 0.2s; /* required for the fade animation */
+}
+.fa-stack-2x {
+	color: #f1f1f8;
+	transition: all 0.2s ease;
+	
+}
+
+.spinner-wrapper {
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #4eae36;
+	animation-name: example;
+	animation-duration: 1s;
+	animation-timing-function:ease-in-out;
+}
+
+.spinner {
+	position: absolute;
+	top: 50%; /* centers the loading animation vertically one the screen */
+	left: 50%; /* centers the loading animation horizontally one the screen */
+	width: 3.75rem;
+	height: 1.25rem;
+	margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */ 
+
+}
+
+.header {
+	background-color: #202020;
+	background-size: cover;
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	text-align: center;
+}
+
+.header .text-container {
+	text-align: left;
+	font-size: x-large;
+	padding-top: 15%;
+}
+.header .text-container h1{
+	color:#4eae36;
+	font-style: italic;
+	font-weight: bold;
+}
+.image-container {
+	padding-top: 10%;
+}
+
+.projects
+{
+  text-align: center;
+  color: white;
+  background-color: #3a9224;
+}
+.projects-image
+{
+  height: 100px;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.carousel-item
+{
+  padding: 10% 0%;
+}
+
+.preview .text-container {
+	text-align: left;
+	font-size: x-large;
+
+}
+.preview .text-container h1{
+	color:#4eae36;
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 10%;
+}
+.preview .text-container h3{
+	color: #202020;
+	font-weight: bold;
+	margin-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.preview .container{
+	padding: 10% 0;
+	margin-bottom: 75px;
+}
+
+.preview .container1{
+	background-color: gray;
+}
+.slider-2 {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #202020;
+}
+
+.slider-2 .slider-container {
+	position: relative;
+}
+.slider-2 .swiper-container {
+	position: static;
+	text-align: center;
+}
+
+.footer
+{
+  background-color: #4eae36;
+  padding: 3%;
+  text-align: center;
+}
+
+.footer .row .last
+{
+	text-align: center;
+}
+.copyright
+{
+	background-color: #4eae36;
+
+	text-align: center;
+}
