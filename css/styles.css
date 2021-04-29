@@ -25,11 +25,14 @@ body, p {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0 0.75rem 0 0.75rem;
-	color: #fff;
+	color: white;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
+.navbar-custom .nav-item .nav-link.active, .navbar-custom .nav-item .nav-link:hover  {
+	color: #202020;
+}
 .navbar-custom .social-icons {
 	display: block;
 	margin-left: 0.5rem;
@@ -44,6 +47,7 @@ body, p {
 	min-width: auto;
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
 }
+
 .fa-stack-2x {
 	color: #f1f1f8;
 	transition: all 0.2s ease;
@@ -114,22 +118,22 @@ body, p {
 }
 
 .preview .text-container {
-	text-align: left;
+	text-align: center;
 	font-size: x-large;
+	margin: 0 5%;
 
 }
 .preview .text-container h1{
 	color:#4eae36;
 	font-style: italic;
 	font-weight: bold;
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 }
 .preview .text-container h3{
 	color: #202020;
 	font-weight: bold;
 	margin-bottom: 100px;
-	margin-right: auto;
-	margin-left: auto;
+	text-align: justify;
 }
 
 .preview .container{
@@ -168,6 +172,6 @@ body, p {
 .copyright
 {
 	background-color: #4eae36;
-
 	text-align: center;
 }
+
