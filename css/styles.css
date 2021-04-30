@@ -84,7 +84,11 @@ body, p {
 	padding-bottom: 15rem;
 	text-align: center;
 }
+.header .linkedin-container {
 
+	font-size: x-large;
+	padding-top: 15%;
+}
 .header .text-container {
 	text-align: left;
 	font-size: x-large;
@@ -96,7 +100,7 @@ body, p {
 	font-weight: bold;
 }
 .image-container {
-	padding-top: 10%;
+	padding-top: 15%;
 }
 
 .projects
@@ -114,7 +118,7 @@ body, p {
 
 .carousel-item
 {
-  padding: 10% 0%;
+  padding: 15% 0%;
 }
 
 .preview .text-container {
