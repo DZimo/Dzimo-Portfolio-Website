@@ -80,27 +80,33 @@ body, p {
 .header {
 	background-color: #202020;
 	background-size: cover;
-	padding-top: 15rem;
-	padding-bottom: 15rem;
+	padding-top: 14rem;
+	padding-bottom: 14rem;
+	text-align: center;
+}
+.header .text-container .icons
+{
 	text-align: center;
 }
 .header .linkedin-container {
 
 	font-size: x-large;
-	padding-top: 15%;
+	margin-top: 10%;
 }
 .header .text-container {
-	text-align: left;
+	text-align: justify;
 	font-size: x-large;
-	padding-top: 15%;
+	margin-top: 5%;
 }
 .header .text-container h1{
 	color:#4eae36;
+	text-align: center;
 	font-style: italic;
 	font-weight: bold;
+	padding-bottom: 20px;
 }
 .image-container {
-	padding-top: 15%;
+	margin-top: 10%;
 }
 
 .projects
