@@ -108,6 +108,9 @@ body, p {
 .image-container {
 	margin-top: 10%;
 }
+.img-fluid {
+	border-radius: 20rem;
+}
 
 .projects
 {
@@ -185,3 +188,23 @@ body, p {
 	text-align: center;
 }
 
+.buton_1
+{
+    border-radius: 2rem;
+    background-color: #4eae36;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 1.75rem;
+	color: white;
+	line-height:125%;
+	text-align:center; 
+	margin-bottom: 75px;
+}
+
+.buton_1:hover
+{
+    text-decoration: none;
+	color: white;
+	transition: .5s ease;
+	background-color: black;
+}
