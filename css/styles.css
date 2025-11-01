@@ -39,7 +39,7 @@ body, p {
 }
 
 .navbar-brand.logo-image img{
-	width: 50%;
+	width: 30%;
 }
 
 .navbar-custom .dropdown:hover > .dropdown-menu {
@@ -80,8 +80,8 @@ body, p {
 .header {
 	background-color: #202020;
 	background-size: cover;
-	padding-top: 14rem;
-	padding-bottom: 14rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 	text-align: center;
 }
 .header .text-container .icons
